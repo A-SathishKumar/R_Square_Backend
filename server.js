@@ -19,7 +19,7 @@ app.post("/send-email", (req, res) => {
 
     const mailOptions = {
         from: email,
-        to: "info@rsquareeducation.in",
+        to: "askasknkl@gmail.com",
         subject: "New Registration Form Submission",
         html: `
             <h2>New Registration Details</h2>
